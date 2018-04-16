@@ -78,3 +78,19 @@
       <br/>
       
     </div>
+    <h3>Operaciones de medida</h3>
+    <div class="container">
+      <br/>
+      <h3>Inserte el Valor en Centimetros
+          <input [(ngModel)]='valor'/>
+      </h3>
+
+      
+      <h4>milimetros = {{valor *1 / 10 *1}}</h4>
+      <h4>Metros = {{valor  / 100}}</h4>
+      <h4>Km = {{valor  / 1000}}</h4>
+      <h4>Milla={{valor*0.39370}}</h4>
+
+      <br/>
+      
+    </div>
